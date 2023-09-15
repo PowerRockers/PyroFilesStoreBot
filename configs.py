@@ -6,8 +6,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "2471816"))
 	API_HASH = os.environ.get("API_HASH", "7ac868a4f0251145881d5f1855d5e66e")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6158387506:AAFXW9JAXdlrhIaCcwl40u5RzbcsT1cHgpo")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "ThammuTv_Filestorebot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001190658285"))
 	BOT_OWNER = [int(owner) for owner in os.environ.get("BOT_OWNER", "1389078939").split()]
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://tnbots:tnbots@cluster0.lkuiies.mongodb.net/?retryWrites=true&w=majority")
